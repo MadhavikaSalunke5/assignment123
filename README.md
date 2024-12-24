@@ -16,13 +16,10 @@ Prerequisites
 Installation
 1.Clone the repository:
 
-git clone https://github.com/shreyash1231/Assignment.git
+git clone https://github.com/MadhavikaSalunke5/assignment123.git
 2.Set up your MySQL database:
-
 Log into MySQL and create a database named users (or update db_config in app.py for a different name).
-
 Run the following SQL query to create a users table:
-
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -39,11 +36,11 @@ db_config = {
     'database': 'users'  # Your database name
 }
 4.Install the Library
-
 pip install Flask mysql-connector-python
-5.Run the Flask application:
 
-python app.py
+5.Run the Flask application:
+python app.py 
+
 The application should now be running at http://127.0.0.1:5000/.
 
 Endpoints
