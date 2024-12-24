@@ -1,19 +1,19 @@
 Flask User Management API
-Description
+Description:
 This project is a Flask web application that provides basic user management functionality. Users can be added to the system, and their details can be viewed. The application interacts with a MySQL database to store user information, such as name, email, and role.
 
-Features
+Features:
 1.View a list of all users.
 2.Add new users with details like name, email, and role.
 3.View user details by ID.
 4.Basic form validation and flash messaging for feedback.
 
-Prerequisites
+Prerequisites:
 1.Python 3.x
 2.MySQL server
 3.A MySQL database with the necessary table for storing user data.
 
-Installation
+Installation:
 1.Clone the repository:
 
 git clone https://github.com/MadhavikaSalunke5/assignment123.git
@@ -43,7 +43,7 @@ python app.py
 
 The application should now be running at http://127.0.0.1:5000/.
 
-Endpoints
+Endpoints:
 1.GET /hello:
 
 Returns the message "Hello World!"
@@ -68,7 +68,7 @@ To populate the table with sample data, you can run the following SQL:
 INSERT INTO users (name, email, role) VALUES
 ('Alice', 'alice@example.com', 'Admin'),
 ('Bob', 'bob@example.com', 'User');
-Git Workflow
+Git Workflow:
 1.Initialize a new Git repository:
 
 git init
@@ -84,12 +84,12 @@ git commit -m "Implemented user management API"
 git push origin assignment
 5.Create a pull request on GitHub from the assignment branch to the main branch.
 
-Additional Dependencies
+Additional Dependencies:
 1.Flask: A micro web framework used for building the application.
 2.MySQL Connector: A library used to interact with the MySQL database.
 Flask==2.2.2
 mysql-connector-python==8.0.30
-Contributing
+Contributing:
 1.Fork the repository.
 2.Create a branch for your feature (git checkout -b feature-name).
 3.Commit your changes (git commit -am 'Add new feature').
